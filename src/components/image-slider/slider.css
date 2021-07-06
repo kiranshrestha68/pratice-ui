@@ -1,0 +1,15 @@
+/* .image{
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+ */
+
+/* .image::-webkit-scrollbar{
+    width: 0;
+} */
+
+.image>img{
+    margin: 10px;
+}
