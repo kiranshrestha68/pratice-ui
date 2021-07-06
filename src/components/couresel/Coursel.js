@@ -3,10 +3,10 @@ import React from "react";
 
 const Coursel = () => {
   return (
-    <div className="coursel">
+    <div  className="coursel">
       <Carousel interval={9000} indicators={true}>
         <Carousel.Item>
-          <img
+          <img  
             className="image"
             src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
             alt="First slide"

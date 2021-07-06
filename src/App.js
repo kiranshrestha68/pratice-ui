@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <div className="App">
-          <Topbar />
+         
           <Home />
           {/* <Slider /> */}
         </div>
