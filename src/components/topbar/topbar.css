@@ -50,12 +50,9 @@
 .topIcon__instagram {
   font-size: 20px;
   margin-right: 10px;
-  color: rgb(219, 139, 19);
+  color: rgb(151, 70, 26);
   cursor: pointer;
 }
-
-
-
 
 .topImg {
   width: 40px;
@@ -68,10 +65,10 @@
   border: 1px solid gray;
 }
 .topImg:hover {
-border: 1px solid teal;
+  border: 1px solid teal;
 }
-  
-.topImg__dropdown{
+
+.topImg__dropdown {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -137,54 +134,43 @@ border: 1px solid teal;
 
 .dropdown {
   position: relative;
-  /* z-index: -1; */
-  
-  /* transition: all 0.5s; */
+  z-index: 9;
 }
 
 .dropdown__content {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
- 
+  justify-content: center;
+  align-items: center;
+
   position: absolute;
   right: 40%;
- /* padding-right: 50px; */
- padding-bottom: 20px;
+  /* padding-right: 50px; */
+  padding-bottom: 20px;
 
   background-color: rgb(68, 65, 65);
   border-radius: 12px;
-  
-  
+
   /* padding: 5px 10vw 5px 10px; */
-
- 
-
 
   font-family: "Josefin Sans", sans-serif;
 
   /* z-index: -1; */
 }
 
-.dropdown__item__profile{
+.dropdown__item__profile {
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
   /* margin-right: 10px; */
-  
 }
 
-.dropdown__item__profile>span{
+.dropdown__item__profile > span {
   margin-right: 20px;
   font-size: 1vw;
 }
-
-
-
-
 
 .dropdown__item {
   cursor: pointer;
@@ -193,11 +179,10 @@ border: 1px solid teal;
   /* margin: 10px; */
 }
 
-.dropdown__item:hover{
-
+.dropdown__item:hover {
   background-color: grey;
   color: black;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 .dropdown__item__profile:hover {
@@ -205,6 +190,4 @@ border: 1px solid teal;
   color: black;
   border-radius: 5px;
   cursor: pointer;
-  
-  
 }
