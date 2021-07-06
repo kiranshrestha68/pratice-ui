@@ -67,6 +67,10 @@
   cursor: pointer;
   border: 1px solid gray;
 }
+.topImg:hover {
+border: 1px solid teal;
+}
+  
 .topImg__dropdown{
   width: 40px;
   height: 40px;
@@ -133,7 +137,7 @@
 
 .dropdown {
   position: relative;
-  z-index: 1;
+  /* z-index: -1; */
   
   /* transition: all 0.5s; */
 }
@@ -160,7 +164,7 @@
 
   font-family: "Josefin Sans", sans-serif;
 
-  /* z-index: 1; */
+  /* z-index: -1; */
 }
 
 .dropdown__item__profile{

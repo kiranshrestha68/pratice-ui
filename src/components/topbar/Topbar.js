@@ -86,8 +86,8 @@ const Topbar = () => {
                 <span>KStha_</span>
                   
               </div>
-              <div className="dropdown__item">About</div>
-              <div className="dropdown__item">Testing</div>
+              <div className="dropdown__item"> About </div>
+              <div className="dropdown__item"> Testing </div>
             </div>
           )}
         </div>
