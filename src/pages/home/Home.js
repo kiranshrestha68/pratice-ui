@@ -5,7 +5,7 @@ import "./home.css"
 const Home = () => {
     return (
         <div>
-          {/* <Coursel/> */}
+          <Coursel/>
           <div className="heading__top">
               Top Rated
           </div>
