@@ -1,6 +1,26 @@
-.heading__top{
-    /* border-bottom : 1px solid black; */
-    margin: 30px;
-    color: grey;
-    text-decoration: underline;
+
+
+.heading__top {
+  /* border-bottom : 1px solid black; */
+
+  color: #181414;
+  margin: 0 0 10px 75px;
+  text-decoration: underline;
+  font-size: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.navbartop {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.carouseltop {
+  position: absolute;
+  width: 100%;
+  top: 5%;
 }

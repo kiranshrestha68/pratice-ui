@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./topbar.css";
+
+
 import { Link } from "react-router-dom";
+
 const Topbar = () => {
   const [isActive, setIsActive] = useState(false);
 
@@ -12,13 +15,13 @@ const Topbar = () => {
   //   }
   // };
 
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setIsActive(false);
-    } else {
-      setIsActive(false);
-    }
-  };
+  // const onMouseLeave = () => {
+  //   if (window.innerWidth < 960) {
+  //     setIsActive(false);
+  //   } else {
+  //     setIsActive(false);
+  //   }
+  // };
 
   return (
     <div className="top" onClose={(e) => setIsActive(false)}>
@@ -55,7 +58,7 @@ const Topbar = () => {
             {" "}
             <Link className="link" to="/top-rated">
               {" "}
-              TOP RATED{" "}
+              FAVOURITE{" "}
             </Link>{" "}
           </li>
         </ul>
@@ -64,7 +67,7 @@ const Topbar = () => {
         <input placeholder="Search Movies" className="search-input" />
         <i className="topSearchIcon fas fa-search"></i>
 
-        <div className="dropdown" onMouseLeave={onMouseLeave}>
+        <div className="dropdown">
           <img
             onClick={(e) => setIsActive(!isActive)}
             src="https://i.pinimg.com/originals/73/16/f5/7316f550de9ca0045e3d8d98a5bb5e44.png"
@@ -87,11 +90,20 @@ const Topbar = () => {
                   
               </div>
               <div className="dropdown__item"> About </div>
+              <div className="dropdown__item">
+              <Link className="link" to="/favourite">
+                Favourite
+              </Link>
+               </div>
+
+              <div className="dropdown__item"> Setting </div>
+
               <div className="dropdown__item"> Testing </div>
             </div>
           )}
         </div>
       </div>
+      
     </div>
   );
 };

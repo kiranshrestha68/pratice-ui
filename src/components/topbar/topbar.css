@@ -134,7 +134,11 @@
 
 .dropdown {
   position: relative;
-  z-index: 9;
+  /* position: absolute; */
+
+  /* z-index: -1; */
+
+  /* transition: all 0.5s; */
 }
 
 .dropdown__content {
@@ -155,7 +159,7 @@
 
   font-family: "Josefin Sans", sans-serif;
 
-  /* z-index: -1; */
+  z-index: 1;
 }
 
 .dropdown__item__profile {
@@ -176,6 +180,9 @@
   cursor: pointer;
   margin-top: 5px;
   transition: all 0.3s;
+  
+  /* position: relative; */
+  
   /* margin: 10px; */
 }
 
@@ -183,11 +190,15 @@
   background-color: grey;
   color: black;
   border-radius: 5px;
+  /* position: absolute; */
 }
 
 .dropdown__item__profile:hover {
-  background-color: grey;
+
+  background-color: red;
   color: black;
   border-radius: 5px;
-  cursor: pointer;
+  /* position: absolute; */
+
+  /* cursor: pointer; */
 }
